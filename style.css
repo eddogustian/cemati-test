@@ -26,3 +26,16 @@
 #header .text-header p {
     color: white;
 }
+#content-cermati {
+    background-color: #e5e5e5;
+}
+.content-can-help {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+.content-can-help h1{
+    line-height: 2;
+}
+.content-can-help p{
+    line-height: 0.7;
+}
