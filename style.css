@@ -1,0 +1,28 @@
+#header {
+    width: 100%;
+    height: 663px;
+    background-image: url("images/work-desk__dustin-lee.jpg");
+    background-size: cover;
+}
+#header .text-header {
+    text-align: center;
+}
+@media (min-width: 576px) {
+    #header .text-header {
+        padding: 9rem 2rem;
+    }
+}
+#header .text-header{
+    padding: 18rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+}
+#header .text-header h1 {
+    color: white;
+}
+#header .text-header h2 {
+    color: white;
+}
+#header .text-header p {
+    color: white;
+}
