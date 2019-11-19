@@ -13,6 +13,9 @@
     <title>Cermati Test</title>
   </head>
   <body>
+    <div id="js-cookie-box" class="cookie-box cookie-box--hide">
+        By accessing and using this Website, you acknowledge that you have read and understand our <b>Cookies Policy, privacy Policy, </b>and our<b> Terms of Service</b> <span id="js-cookie-button" class="cookie-button">Got it</span>
+    </div>  
     <div id="header">
       <img src="images/y-logo-white.png" alt="logo cermati" height="42" width="42">
         <div class="text-header">
@@ -120,5 +123,20 @@
     <script src="dist/js/jquery-3.3.1.slim.min.js"></script>
     <script src="dist/js/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
   </body>
 </html>
+<script>
+    const cookieBox = document.getElementById('js-cookie-box');
+    const cookieButton = document.getElementById('js-cookie-button');
+
+    if (!Cookies.get('cookie-box')) {
+      
+    cookieBox.classList.remove('cookie-box--hide');
+      
+      cookieButton.onclick = function() {
+        Cookies.set('cookie-box', true, { expires: 7 });
+        cookieBox.classList.add('cookie-box--hide');
+      }
+    }
+  </script>
