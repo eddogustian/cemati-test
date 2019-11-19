@@ -49,6 +49,14 @@
     text-align: center;
     padding: 0 0 2rem 0;
 }
+.btn-lets {
+    border: 1px solid white;
+    color: white;
+}
+.btn-lets:hover {
+    border: 1px solid white;
+    background-color: white;
+}
 
 .bg-footer-cermati {
     background-color: #030326;
