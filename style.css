@@ -4,6 +4,14 @@
     background-image: url("images/work-desk__dustin-lee.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    /* transform: scale(1.2); */
+}
+#header img {
+    position: absolute;
+    top: 4%;
+    bottom: 0;
+    left: 4%;
+    right: 0;
 }
 #header .text-header {
     text-align: center;
