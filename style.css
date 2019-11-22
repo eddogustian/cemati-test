@@ -5,6 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    z-index: -2;
     /* transform: scale(1.2); */
 }
 #header img {
@@ -111,7 +112,7 @@
     background-color: #007bc1;  
   }
   .overlay {
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     bottom: 0;
     top: 0;
