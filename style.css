@@ -29,10 +29,10 @@
     #header .hero-shot {
         padding: 9rem 2rem;
     }
-    .highlights-panel h1{
+    .highlights-panel-title h1{
         line-height: 2;
     }
-    .highlights-panel p{
+    .highlights-panel-title p{
         line-height: 0.7;
     }
 }
@@ -59,11 +59,11 @@
 #header .hero-shot p {
     color: white;
 }
-#content-cermati {
+#highlights-panel {
     background-color: #e5e5e5;
     padding: 50px 0;
 }
-.highlights-panel {
+.highlights-panel-title {
     text-align: center;
     padding: 0 0 2rem 0;
 }
@@ -127,6 +127,17 @@
     right: 0;
     background: rgba(0, 74, 117, 0.5);
   }
-  .desc-cookies b {
+  .notification-panel b {
       color: #007bc1;
+  }
+  #newsletterpanel {
+      background-color: transparent;
+  }
+  #newsletterpanel .bg-newsletterpanel{
+      background-color: #007bc1;
+      color: white;
+  }
+  #newsletterpanel .btn-newsletter {
+    background-color: #ff8000;
+    color: white;
   }
