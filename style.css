@@ -4,9 +4,15 @@
     background-image: url("images/work-desk__dustin-lee.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    z-index: -2;
+    z-index: 0;
     /* transform: scale(1.2); */
+}
+.cta-header {
+    position: relative;
+    min-height: 100%;
+}
+#header .text-header .btn-lets {
+    z-index: 1;
 }
 #header img {
     position: absolute;
@@ -61,15 +67,17 @@
     text-align: center;
     padding: 0 0 2rem 0;
 }
+
 .btn-lets {
     border: 1px solid white;
     color: white;
+    padding: 10px 13px;
 }
-.btn-lets:hover {
-    border: 1px solid white;
-    background-color: white;
-}
+.btn-lets:hover {background-color: #fff}
 
+.fas {
+    font-size: 25px;
+}
 .bg-footer-cermati {
     background-color: #030326;
 }
@@ -84,7 +92,6 @@
     font-size: 66%;
 
 }
-
 .cookie-box {
     position: fixed;
     left: 0;
@@ -118,8 +125,7 @@
     top: 0;
     left: 0;
     right: 0;
-    opacity: 0.5;
-    background: #004a75;
+    background: rgba(0, 74, 117, 0.5);
   }
   .desc-cookies b {
       color: #007bc1;

@@ -12,23 +12,23 @@
 
     <title>Cermati Test</title>
   </head>
+
   <body>
     <div id="js-cookie-box" class="cookie-box cookie-box--hide">
         <div class="desc-cookies">
-          <p> By accessing and using this Website, you acknowledge that you have read and </br> understand our <b>Cookies Policy, privacy Policy, </b>and our<b> Terms of Service</b> <span id="js-cookie-button" class="cookie-button">Got it</span></p>
-          
+          <p> By accessing and using this Website, you acknowledge that you have read and </br> understand our <b>Cookies Policy, privacy Policy, </b>and our<b> Terms of Service</b> <span id="js-cookie-button" class="cookie-button cookiebtn">Got it</span></p>
         </div>
-    </div>  
-    <div id="header">
+    </div>     
+    <div id="header" class="cta-header">
+      <div class="text-header">
+        <h1>Hello! I’m Eddo Gustian</h1>
+        <h2>Consult, Design And Develop Websites</h2>
+        <p>Have something great in mind? Feel free to contact me.</p>
+        <p>I'II help you to make it happen</p>
+        <button type="button" class="btn btn-lets">LET'S MAKE CONTACT</button>
+      </div>
       <div class="overlay"></div>
       <img src="images/y-logo-white.png" alt="logo cermati" height="42" width="42">
-        <div class="text-header">
-          <h1>Hello! I’m Eddo Gustian</h1>
-          <h2>Consult, Design And Develop Websites</h2>
-          <p>Have something great in mind? Feel free to contact me.</p>
-          <p>I'II help you to make it happen</p>
-          <button type="button" class="btn btn-lets">LET'S MAKE CONTACT</button>
-        </div>
     </div>
    <div id="content-cermati">
       <div class="container">
@@ -120,7 +120,7 @@
    </div>
     <footer id="sticky-footer" class="py-4 bg-footer-cermati text-white-50">
       <div class="container text-center">
-        <small>&copy; 2018 Eddo Gustian. All rights reserved.</small>
+        <small>&copy; 2020 Eddo Gustian. All rights reserved.</small>
       </div>
     </footer>
 
@@ -141,7 +141,17 @@
       
       cookieButton.onclick = function() {
         Cookies.set('cookie-box', true, { expires: 7 });
+        cookieBox.remove('#cookie-box',true,);
         cookieBox.classList.add('cookie-box--hide');
       }
     }
+  </script>
+
+  <script>
+    // $(document).ready(function(){
+    //   $("span").click(function(){
+    //     console.log('masuk');
+    //     $("div").remove("#js-cookie-box");
+    //   });
+    // });
   </script>
