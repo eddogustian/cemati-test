@@ -144,4 +144,5 @@
 #newsletterpanel .btn-newsletter {
     background-color: #ff8000;
     color: white;
+    width: 100%;
 }
