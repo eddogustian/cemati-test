@@ -73,7 +73,7 @@
     color: white;
     padding: 10px 13px;
 }
-.btn-lets:hover {background-color: #fff}
+.btn-lets:hover {background-color: #fff; color: rgba(0, 74, 117, 1);}
 
 .fas {
     font-size: 25px;
