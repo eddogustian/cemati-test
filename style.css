@@ -11,7 +11,7 @@
     position: relative;
     min-height: 100%;
 }
-#header .text-header .btn-lets {
+#header .hero-shot .btn-lets {
     z-index: 1;
 }
 #header img {
@@ -22,22 +22,22 @@
     right: 0;
     z-index: 1;
 }
-#header .text-header {
+#header .hero-shot {
     text-align: center;
 }
 @media (min-width: 576px) {
-    #header .text-header {
+    #header .hero-shot {
         padding: 9rem 2rem;
     }
-    .content-can-help h1{
+    .highlights-panel h1{
         line-height: 2;
     }
-    .content-can-help p{
+    .highlights-panel p{
         line-height: 0.7;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    #header .text-header p {
+    #header .hero-shot p {
         color: white;
         margin: 0 3rem;
     }
@@ -45,25 +45,25 @@
         margin-top: 1.5rem;
     }
 }
-#header .text-header{
+#header .hero-shot{
     padding: 13rem 1rem;
     margin-bottom: 2rem;
     border-radius: .3rem;
 }
-#header .text-header h1 {
+#header .hero-shot h1 {
     color: white;
 }
-#header .text-header h2 {
+#header .hero-shot h2 {
     color: white;
 }
-#header .text-header p {
+#header .hero-shot p {
     color: white;
 }
 #content-cermati {
     background-color: #e5e5e5;
     padding: 50px 0;
 }
-.content-can-help {
+.highlights-panel {
     text-align: center;
     padding: 0 0 2rem 0;
 }
